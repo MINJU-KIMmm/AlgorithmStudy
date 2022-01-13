@@ -1,6 +1,6 @@
 import java.util.*;
 import java.io.*;
-public class 실전3_김민주 {
+public class 실전4_김민주 {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
