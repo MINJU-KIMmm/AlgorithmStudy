@@ -1,5 +1,5 @@
 import java.util.*;
-public class 실전1_김민주 {
+public class 실전2_김민주 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
