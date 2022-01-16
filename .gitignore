@@ -54,3 +54,5 @@ hs_err_pid*
 .metadata/.plugins/org.eclipse.ui.intro/introstate
 .metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
 .metadata/version.ini
+*.tree
+*.setup
