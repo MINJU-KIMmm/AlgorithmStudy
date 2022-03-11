@@ -1,0 +1,26 @@
+def available(x, y, obj):
+    if obj == 0:
+        0
+    elif obj == 1:
+
+
+def solution(n, build_frame):
+    answer = []
+
+    for frame in build_frame:
+        x, y, obj, build = frame
+        if build == 1:
+            answer.append([x, y, obj])
+            if obj == 0:  # 기둥 세우기
+                if not (y == 0 or [x - 1, y, 1] in answer or [x, y, 1] in answer or [x, y - 1, 0] in answer):  # 기둥 조건 미충족
+                    answer.remove([x, y, obj])
+            elif obj == 1:  # 보 세우기
+                if not ([x, y, 0] in answer or [x + 1, y, 0] in answer or ([x - 1, y, 1] and [x + 1, y, 1])):  # 보 조건 미충족
+                    answer.remove([x, y, obj])
+        elif build == 0:
+            answer.remove([x, y, obj])
+            if obj == 0:  # available 함수 도입
+
+            elif obj == 1:
+
+    return answer
